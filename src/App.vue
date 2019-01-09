@@ -24,8 +24,9 @@ export default {
   components: {
     HelloWorld,
     Login
-  }
+  },
 };
+
 </script>
 
 <style>
