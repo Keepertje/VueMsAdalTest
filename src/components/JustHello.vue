@@ -6,7 +6,7 @@
     <div v-show='isFeatureEnabled("testfeature2")'>Ik ben een andere feature</div>
 
      <div v-feature-flag="feature1">Ik ben een feature met dir</div>
-    <div v-feature-flag="feature2">Ik ben een andere feature met dir</div>
+    <div v-feature-flag='feature2'>Ik ben een andere feature met dir</div>
   </div>
 </template>
 
